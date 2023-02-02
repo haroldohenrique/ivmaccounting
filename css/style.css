@@ -140,8 +140,11 @@ body{
 
 /* COMEÇO DO MAIN */
 
+.sectionMain{
+    display: flex;
+}
 
-.main {
+.divMain {
     height: 100vh;
     width: 100vw;
     color: #FFF;
@@ -202,4 +205,14 @@ body{
     border-radius: 10vh;
     transform: scale(105%);
     transition: 0.6s;
+}
+
+.imagemMain {
+    display: flex;
+    margin: 10vh 10vw 0 0;
+}
+
+.imagemMainContainer {
+    width: 30vw;
+    height: 50vh;
 }
